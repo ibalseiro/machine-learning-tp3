@@ -5,3 +5,4 @@
 3. Muestra e interpreta tus resultados. 
 4. Determina de vuelta las componentes principales, pero esta vez usando la librería sklearn.
 5. Obtener los cargos de las variables en los componentes principales. Hint:use `pca.components_`, Nos interesa saber los factores más importantes a la hora de elegir un vino!.
+6. (Opcional) ¿Cómo podría agregarle esta funcionalidad a su implementación?
