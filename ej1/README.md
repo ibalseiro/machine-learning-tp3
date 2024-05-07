@@ -1,4 +1,4 @@
-## Clustering K-means
+## Ej1: Clustering K-means
 
 1. Implementa el algoritmo KMeans en el script `k_means.py`
 2. Emplea el notebook `explore_train.ipynb` para explorar el archivo `data/synthetic_dataset_1.csv`. Posteriormente "entrena" el algoritmo KMeans que implementaste anteriormente para etiquetar los puntos según los K clusters.
