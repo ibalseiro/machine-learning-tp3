@@ -1,19 +1,23 @@
 import numpy as np
 
 class KMeans:
-    def __init__(self):
+    def __init__(self, k: int, seed: int):
         """
         Initialize KMeans clustering model.
+        
+        Args:
+        - k (int): Number of clusters.
+        - seed (int): Seed to randomly initialize the centroids.
         """
         pass
     
-    def fit(self, X: np.ndarray, k: int) -> np.ndarray:
+    def fit(self, X: np.ndarray, n_iter: int=100) -> np.ndarray:
         """
         Perform clustering on input data X into k clusters.
 
         Args:
         - X (np.ndarray): Input array containing data to cluster.
-        - k (int): Number of clusters.
+        - n_iter (int): Number of iterations for the KMeans algorithm.
 
         Returns:
         - np.ndarray: Array containing cluster labels assigned to each point.
